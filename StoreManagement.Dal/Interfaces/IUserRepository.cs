@@ -1,10 +1,4 @@
-﻿using StoreManagement.Dal.Models;
-using StoreManagement.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using StoreManagement.Model;
 
 namespace StoreManagement.Dal.Interfaces
 {

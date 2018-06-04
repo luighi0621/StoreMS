@@ -1,4 +1,5 @@
-﻿using StoreManagement.Dal.Models;
+﻿using StoreManagement.Dal.Interfaces;
+using StoreManagement.Dal.Models;
 using StoreManagement.Model;
 using System;
 using System.Collections.Generic;
@@ -7,14 +8,14 @@ using System.Linq.Expressions;
 
 namespace StoreManagement.Dal
 {
-    public class UserRepository
+    public class UserRepository: IUserRepository
     {
         private StoreManagementEntities _DbContext;
         public UserRepository()
         {
             _DbContext = new StoreManagementEntities();
         }
-        public void Add(User add)
+        public void Create(User add)
         {
             if (add != null)
             {

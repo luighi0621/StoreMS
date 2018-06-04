@@ -1,4 +1,5 @@
 ﻿using StoreManagement.Dal.Models;
+using StoreManagement.Model;
 using System;
 using System.Collections.Generic;
 using System.Linq;

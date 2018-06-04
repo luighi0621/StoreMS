@@ -7,17 +7,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StoreManagement.Dal.Models
+namespace StoreManagement.Model
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Product
+    public partial class Supplier
     {
         public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
-        public byte[] Image { get; set; }
-        public string ProductCode { get; set; }
+        public string SupplierCode { get; set; }
     }
 }

@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace StoreManagement.Dal.Models
+namespace StoreManagement.Model
 {
     using System;
     using System.Collections.Generic;
